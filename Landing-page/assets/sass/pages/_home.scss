@@ -1,0 +1,129 @@
+@import "../components/buttons";
+@import "../abstracts/variables";
+
+
+.hero-container {
+  width: 1232px;
+  margin: 0 auto;
+}
+.left-hero {
+  h2 {
+    font-size: 4rem;
+    font-weight: 500;
+    width: 17ch;
+    span {
+      border-bottom: 0.5rem solid $yellow;
+      i {
+        color: $yellow;
+      }
+    }
+  }
+  p {
+    font-size: 1.6rem;
+    max-width: 35ch;
+    text-align: justify;
+  }
+}
+.right-hero {
+  img {
+    width: 60.8rem;
+  }
+}
+
+// About-Us
+.decision-making__text-container{
+    border-top-left-radius: 8rem;
+    border: .2rem solid $border-color;
+    border-right: none;
+
+}
+.decision-making__subtitle{
+    color: $title-violet;
+    font-size: 4.8rem;
+    font-weight: 700;
+    width: 13ch;
+}
+.decision-making__description,.decision-making__link{
+    font-size: 1.6rem;
+    width: 55ch;
+    text-align: justify;
+}
+.decision-making__description{
+  color: $font-dark-gray;
+}
+.efficiency__description{
+  color: $font-dark-gray;
+}
+.decision-making__image{
+    
+    border-top-left-radius: 8rem;
+    border-bottom-right-radius: 8rem;
+    background-color: $about-us-bgc;
+    
+    
+    img{        
+       height: 35rem;
+    }
+}
+
+
+
+.efficiency__text-container{
+    border-top-right-radius: 8rem;
+    border: .2rem solid $border-color;
+    border-left: none;
+    
+}
+.efficiency__subtitle{
+    color: $title-violet;
+    font-size: 4.8rem;
+    font-weight: 700;
+    width: 22ch;
+}
+.efficiency__description,.decision-making__link{
+    font-size: 1.6rem;
+    width: 60ch;
+    text-align: justify;
+    
+}
+.efficiency__image{
+    
+    border-top-right-radius: 8rem;
+    border-bottom-left-radius: 8rem;
+    background-color: $about-us-bgc;
+    img{
+        
+       height: 35rem;
+    }
+}
+
+//features
+#features{
+  width: 1232px;
+  margin: 0 auto;
+}
+.features__subtitle{
+  font-size: 4.8rem;
+
+}
+.features__description{
+  text-align: center;
+  font-size: 1.6rem;
+}
+.features__services{
+
+  img{
+    width: 4rem;
+  }
+}
+.cards-services__title{
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.cards-services__description{
+  font-size: 1.6rem;
+  width: 30ch;
+}
+
+
+@import '../layout/footer';

@@ -1,0 +1,31 @@
+@import '../abstracts/variables';
+
+
+#footer{
+    width: 1232px;
+    margin: 0 auto;
+    background-color: $ultra-light-pink;
+  }
+  .footer__container{
+    border-top: .2rem solid $black;
+    
+  }
+  .footer-navigation__links,.socmed__links{
+      a{
+          text-decoration: none;
+          font-size: 1.6rem;
+          color: $black;
+
+      }
+  }
+  .logo-container{
+    width: 13rem;
+  }
+  .footer-navigation__links{
+    a{
+        &:hover{
+        border-bottom: .2rem solid $yl;
+       
+      }
+    }
+  }

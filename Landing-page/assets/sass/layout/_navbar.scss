@@ -1,0 +1,20 @@
+@import '../abstracts/variables';
+
+#Home{
+    width: 1232px;
+    margin: 0 auto;
+    
+    .logo{
+        width: 6rem;
+    }
+    .navlinks li > a {
+        font-size: 2rem;
+        text-decoration: none;
+        color: $font-dark-gray;
+        &:hover{
+            border-bottom: .3rem solid $yl;
+        }
+        }
+}
+
+
