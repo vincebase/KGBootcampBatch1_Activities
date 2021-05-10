@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
       rel="stylesheet"
     />
-
+    <script src="./assets/js/script.js" defer></script>
     <link rel="stylesheet" href="./assets/sass/main.css" />
 
     <title>Landing Page</title>
@@ -51,27 +51,26 @@
     <!-- navbar ends here -->
     <!-- Hero section starts here -->
 
-    <div id="hero" class="hero-container pad-left-70 pad-right-70">
+    <div id="hero" class="hero-container pad-left-70 pad-right-70" onscroll="handleScrollAnimation()">
       <!-- container -->
-      <div class="hero-container d-flex flex-wrap">
+      <div class="hero-container d-flex flex-wrap ">
         <!-- row -->
-        <div class="left-hero col-6 pad-top-248">
+        <div class="left-hero col-6 pad-top-248 animate__left">
           <!-- column -->
-          <h2 class="mar-btm-44">
+          <h2 class="mar-btm-44 ">
             Analyze Your Data <span> Faster <i class="fas fa-bolt"></i></span>
           </h2>
           <p class="mar-btm-72">
             Discover ways to more effectively analyze your data. Quicker
             insights and results in less amount of time!
           </p>
-          <a href="#" class="btn btn-pink">Try it for free!</a>
+          <a href="#" class="btn btn-pink ">Try it for free!</a>
         </div>
 
-        <div class="right-hero col-6 pad-top-160">
+        <div class="right-hero col-6 pad-top-160 animate__right" >
           <!-- column -->
           <img
             src="./assets/image/Hero-img.svg"
-            class="hero-img"
             alt="Data aanalytics svg"
           />
         </div>
@@ -81,10 +80,10 @@
     <!-- Hero section end here -->
 
     <!-- About us section starts here -->
-    <div id="about-us" class="pad-top-88">
+    <div id="about" class="pad-top-88">
       <!-- container -->
       <div
-        class="about-us__decision-making d-flex flex-wrap pad-left-80 pad-right-10 mar-btm-100"
+        class="about-us__decision-making d-flex flex-wrap pad-left-80 pad-right-10 mar-btm-100 "
       >
         <!-- row -->
         <div
@@ -106,8 +105,8 @@
           <a href="decision-making__link" class="mar-btm-48 btn btn-green"
             >Learn more</a
           >
+       
         </div>
-
         <div class="decision-making__image col-6 d-flex jc-center">
           <!-- column -->
           <img
@@ -115,7 +114,9 @@
             alt="Improve Decision Making"
           />
         </div>
-      </div>
+        
+      
+    </div>
       <div
         class="about-us__efficiency d-flex flex-wrap pad-right-80 pad-left-10"
       >

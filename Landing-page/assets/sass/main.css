@@ -342,6 +342,115 @@ html {
           flex: 1 0 calc(1/12 * 100%);
 }
 
+.animate__left {
+  -webkit-animation: movesInLeft;
+          animation: movesInLeft;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+}
+
+@-webkit-keyframes movesInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-200px);
+            transform: translateX(-200px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+@keyframes movesInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-200px);
+            transform: translateX(-200px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+.animate__right {
+  -webkit-animation: movesInRight;
+          animation: movesInRight;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+}
+
+@-webkit-keyframes movesInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(200px);
+            transform: translateX(200px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+@keyframes movesInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(200px);
+            transform: translateX(200px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+/*  for onscroll event animation 
+.animate__rlr{
+    animation: movesInOutRight;
+    animation-duration:  1.5s;
+    animation-timing-function: ease-out;
+}
+@keyframes movesInOutRight {
+    0%{
+        opacity: 0;
+        transform: translateX(200px);
+    }
+    80%{
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+.animate__lrl{
+    animation: movesOutInLeft;
+    animation-duration:  1.5s;
+    animation-timing-function: ease-out;
+}
+@keyframes movesOutInLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+    80%{
+        transform: translateX(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+*/
 #Home {
   width: 1232px;
   margin: 0 auto;
